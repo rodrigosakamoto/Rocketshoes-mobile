@@ -38,7 +38,6 @@ function* addToCart({ id }) {
     };
 
     yield put(addToCartSuccess(data));
-    navigation.navigate('Cart');
   }
 }
 
